@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@200;300&display=swap');
+
+body{
+    background:url(foto.jpg);
+    font-family:'Commissioner' , sans-serif;
+    color:black;
+    margin: auto 50px;
+}
+
+main{
+width:940px;
+margin: 0 auto;
+}
+
+form{
+    margin:40px 0;
+    color:black;
+    text-decoration: none;
+}
+
+.checkbox{
+margin: 20px 0;
+}
+
+form label , form legend{
+ display:block;
+ margin: 10px 0;
+}
+
+.input-padrao{
+    display:block;
+    margin-bottom: 20px;
+    padding:10px 25px 10px 25px;
+    width: 50%;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background:#a4c3b2;
+    font-weight: bold;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+    transition: 0.7s;
+    cursor: pointer;
+
+}
+
+.enviar:hover {
+background: #6b9080;
+/* transform:scale(); aumentar proporcionalmente o tamanho dos elementos
+transform:rotate();*/
+}
+
+header{
+    background-color:#cce3de;
+    height: 180px;
+    padding: 5px 0;
+}
+
+.box{
+    position: relative;
+    margin: 0 auto;
+    
+}
+  
+nav{/* todo o nav */
+    position:absolute;
+    top:70px;
+    left:550px;
+    
+}
+
+nav li {/* os links do nav */
+    display: inline;
+    margin: 0 0  0  35px;
+   }
+
+
+ nav a:hover{
+    color:#6b9080;
+}
+
+
+nav a {/* os links do nav */
+    text-transform: uppercase;
+    color:#000000;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+ 
+}
+
+#logo{
+    top:-10px;
+    position:absolute;
+    left:200px;
+    width: 200px;
+}
+
+footer{
+    text-align: center;
+    background-color:rgba(255, 255, 255 , 0.2);
+}
+
+.copy{
+    font-size: 14px;
+    color:black;
+    text-decoration: bolder;
+    margin-bottom: 6px;
+}
+
+
+

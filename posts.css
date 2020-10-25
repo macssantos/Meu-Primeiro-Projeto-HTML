@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@200;300&display=swap');
+
+body{
+    background:url(foto.jpg);
+    font-family:'Commissioner' , sans-serif;
+    color:black;
+    margin: auto 50px;
+}
+
+header{
+    background-color:#cce3de;
+    height: 180px;
+    padding: 5px 0;
+}
+
+.box{
+    position: relative;
+    margin: 0 auto;
+}
+  
+nav{/* todo o nav */
+    position:absolute;
+    top:70px;
+    left:550px;
+    
+}
+
+nav li {/* os links do nav */
+    display: inline;
+    margin: 0 0  0  35px;
+   }
+
+
+ nav a:hover{
+    color:#6b9080;
+}
+
+
+nav a {/* os links do nav */
+    text-transform: uppercase;
+    color:#000000;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+ 
+}
+
+.logo{
+    top:-10px;
+    position:absolute;
+    left:200px;
+    width: 200px;
+}
+
+footer{
+    text-align: center;
+    background-color:rgba(255, 255, 255 , 0.2);
+}
+
+.copy{
+    font-size: 14px;
+    color:black;
+    text-decoration: bolder;
+    margin-bottom: 6px;
+}
+.posts{
+background-color: rgba(204, 227, 222 , 0.4);
+line-height: 1.2;
+
+}
+
+.poema{
+    display: block;
+    margin: 20px 45px 10px 45px;
+    text-align: left;
+    text-decoration: none;
+    color:black;
+
+}
+.posts h4{
+    font-size: 18px;
+    padding-top: 10px;
+    margin: 40px 0 ;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1.5;
+
+}
+.ensaio{
+    text-align: justify;
+    margin:20px 90px;
+    line-height: 1.5;
+    background: linear-gradient(gray, rgba(204, 227, 222 , 0.4));
+    padding: 30px;
+
+}
+

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@200;300&display=swap');
+
+body{
+    background:url(foto.jpg);
+    font-family:'Commissioner' , sans-serif;
+    color:black;
+    margin: auto 50px;
+}
+
+header{
+    background-color:#cce3de;
+    height: 180px;
+    padding: 5px 0;
+}
+
+.box{
+    position: relative;
+    margin: 0 auto;
+}
+  
+nav{/* todo o nav */
+    position:absolute;
+    top:70px;
+    left:550px;
+    
+}
+
+nav li {/* os links do nav */
+    display: inline;
+    margin: 0 0  0  35px;
+   }
+
+
+ nav a:hover{
+    color:#6b9080;
+}
+
+
+nav a {/* os links do nav */
+    text-transform: uppercase;
+    color:#000000;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+ 
+}
+
+.logo{/* comportamento = id , estilo = classe*/
+    top:-10px;
+    position:absolute;
+    left:200px;
+    width: 200px;
+}
+
+.poemas{/*centralizando o conteúdo*/
+    color:black;
+    margin: 10px auto 10px auto;
+    width: 900px;
+}
+
+
+.poemas li{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    padding:10px;
+    line-height: 1.8;
+
+  /* border: 1px solid black; colocando bordas 
+   border-radius: 5px;*/
+    
+}
+.poemas li h2{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.poemas li:hover h2{
+    color: #6b9080;
+    font-size:16px;
+}
+
+.poemas h2{
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+footer{
+    text-align: center;
+    background-color:rgba(255, 255, 255 , 0.2);
+}
+
+.copy{
+    font-size: 14px;
+    color:black;
+    text-decoration: bolder;
+    margin-bottom: 6px;
+}
+
+.sobre{
+    background-color: rgba(107, 144, 128 , 0.7);
+    margin: 10px 40px auto 40px; /* cima , direita , baixo , esquerda*/
+    padding:30px;
+    font-size: 15px;
+    color:black;
+}
+
+.sobre h2{
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#sobre{
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.8;
+    padding: 20px;
+}
+@media screen and(max-width: 480px){
+
+}
